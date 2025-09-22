@@ -1,6 +1,6 @@
 [
   {
-    "title": ["CEO", "CTO", "CFO", "HoO-taiwan"],
+    "title": "CEO",
     "contact": "JoshHuang9508",
     "github": "JoshHuang9508",
     "discord": "614396443016560649",
@@ -8,7 +8,7 @@
     "email": "joshhuang9508@gmail.com"
   },
   {
-    "title": ["CEO"],
+    "title": "CEO",
     "contact": "Yeci226",
     "github": "yeci226",
     "discord": "283946584461410305",
@@ -16,79 +16,23 @@
     "email": "shawnyin226@gmail.com"
   },
   {
-    "title": ["developer"],
-    "contact": "Cablate",
-    "github": "cablate",
-    "discord": "337525692356886538",
-    "ricecall": "zavatuoo",
-    "email": ""
+    "title": "CTO",
+    "contact": "JoshHuang9508",
+    "github": "JoshHuang9508",
+    "discord": "614396443016560649",
+    "ricecall": "whydog",
+    "email": "joshhuang9508@gmail.com"
   },
   {
-    "title": ["developer"],
-    "contact": "Cstrikeasia",
-    "github": "cstrikeasia",
-    "discord": "789742073036144640",
-    "ricecall": "jasper888",
-    "email": "cstrike.asia@gmail.com"
+    "title": "CFO",
+    "contact": "Yeci226",
+    "github": "yeci226",
+    "discord": "283946584461410305",
+    "ricecall": "yeci",
+    "email": "shawnyin226@gmail.com"
   },
   {
-    "title": ["developer"],
-    "contact": "Ramon96",
-    "github": "ramonPC96",
-    "discord": "493539043133620234",
-    "ricecall": "ramon96",
-    "email": "ramon96@ricecall.com.es"
-  },
-  {
-    "title": ["developer"],
-    "contact": "Hockpond",
-    "github": "hockpond",
-    "discord": "174274660874059776",
-    "ricecall": "hockpond",
-    "email": ""
-  },
-  {
-    "title": ["developer"],
-    "contact": "ZhChen",
-    "github": "zhchentw",
-    "discord": "534301617009328138",
-    "ricecall": "zhChen_tw",
-    "email": ""
-  },
-  {
-    "title": ["machine-network"],
-    "contact": "Cooookie16",
-    "github": "Cooookie16",
-    "discord": "370537724362620930",
-    "ricecall": "cookie",
-    "email": ""
-  },
-  {
-    "title": ["machine-network"],
-    "contact": "Yayacat",
-    "github": "yayacat",
-    "discord": "107918754251325440",
-    "ricecall": "yayacat",
-    "email": ""
-  },
-  {
-    "title": ["machine-network"],
-    "contact": "Codingbear",
-    "github": "mcg25035",
-    "discord": "492908862647697409",
-    "ricecall": "codingbear",
-    "email": ""
-  },
-  {
-    "title": ["technical-support"],
-    "contact": "5026",
-    "github": "SN-Koarashi",
-    "discord": "198418020329062400",
-    "ricecall": "",
-    "email": ""
-  },
-  {
-    "title": ["HoM", "HoO-russia", "HoO-international"],
+    "title": "HoM",
     "contact": "Roman",
     "discord": "736902595888807996",
     "github": "",
@@ -96,7 +40,31 @@
     "email": ""
   },
   {
-    "title": ["HoO-brazil"],
+    "title": "HoO-taiwan",
+    "contact": "JoshHuang9508",
+    "github": "JoshHuang9508",
+    "discord": "614396443016560649",
+    "ricecall": "whydog",
+    "email": "joshhuang9508@gmail.com"
+  },
+  {
+    "title": "HoO-international",
+    "contact": "Roman",
+    "discord": "736902595888807996",
+    "github": "",
+    "ricecall": "rupoly",
+    "email": ""
+  },
+  {
+    "title": "HoO-russia",
+    "contact": "Roman",
+    "discord": "736902595888807996",
+    "github": "",
+    "ricecall": "rupoly",
+    "email": ""
+  },
+  {
+    "title": "HoO-brazil",
     "contact": "Joao",
     "discord": "209495167512608774",
     "github": "",
@@ -104,7 +72,7 @@
     "email": ""
   },
   {
-    "title": ["cs-taiwan"],
+    "title": "customer-service",
     "contact": "lingyu1121",
     "discord": "371580417096155137",
     "github": "",
@@ -112,11 +80,83 @@
     "email": ""
   },
   {
-    "title": ["cs-brazil"],
+    "title": "customer-service",
     "contact": "goujuanji_",
     "discord": "415152218690420736",
     "github": "",
     "ricecall": "Eisenovo",
+    "email": ""
+  },
+  {
+    "title": "developer",
+    "contact": "Cablate",
+    "github": "cablate",
+    "discord": "337525692356886538",
+    "ricecall": "zavatuoo",
+    "email": ""
+  },
+  {
+    "title": "developer",
+    "contact": "Cstrikeasia",
+    "github": "cstrikeasia",
+    "discord": "789742073036144640",
+    "ricecall": "jasper888",
+    "email": "cstrike.asia@gmail.com"
+  },
+  {
+    "title": "developer",
+    "contact": "Ramon96",
+    "github": "ramonPC96",
+    "discord": "493539043133620234",
+    "ricecall": "ramon96",
+    "email": "ramon96@ricecall.com.es"
+  },
+  {
+    "title": "developer",
+    "contact": "Hockpond",
+    "github": "hockpond",
+    "discord": "174274660874059776",
+    "ricecall": "hockpond",
+    "email": ""
+  },
+  {
+    "title": "developer",
+    "contact": "ZhChen",
+    "github": "zhchentw",
+    "discord": "534301617009328138",
+    "ricecall": "zhChen_tw",
+    "email": ""
+  },
+  {
+    "title": "machine-network",
+    "contact": "Cooookie16",
+    "github": "Cooookie16",
+    "discord": "370537724362620930",
+    "ricecall": "cookie",
+    "email": ""
+  },
+  {
+    "title": "machine-network",
+    "contact": "Yayacat",
+    "github": "yayacat",
+    "discord": "107918754251325440",
+    "ricecall": "yayacat",
+    "email": ""
+  },
+  {
+    "title": "machine-network",
+    "contact": "Codingbear",
+    "github": "mcg25035",
+    "discord": "492908862647697409",
+    "ricecall": "codingbear",
+    "email": ""
+  },
+  {
+    "title": "technical-support",
+    "contact": "5026",
+    "github": "SN-Koarashi",
+    "discord": "198418020329062400",
+    "ricecall": "",
     "email": ""
   }
 ]
