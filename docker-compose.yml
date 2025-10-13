@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: ubuntu_app
+    tty: true
+    stdin_open: true
+
+    env_file:
+      - .env
+    
+    ports:
+      - "3387:3000"
+
+    volumes:
+      - ./service:/home/ubuntu
+      - ./logs:/var/log/
