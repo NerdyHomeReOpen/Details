@@ -20,6 +20,8 @@ RUN apt-get update && apt-get install -y \
     tar \
     supervisor \
     jq \
+    python3 \
+    python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
 # 使用 npm 安Stan yarn
@@ -44,7 +46,6 @@ RUN chmod +x /usr/bin/app-start.sh
 
 # 複製初始 .env 檔案到指定位置
 RUN mkdir -p /usr/share/project
-COPY .env.project.init /usr/share/project
 
 RUN usermod -d /home/ubuntu -m -s /bin/bash ubuntu
 

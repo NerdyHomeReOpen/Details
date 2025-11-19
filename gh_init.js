@@ -29,7 +29,7 @@ const ghProcess = spawn('gh', [
 // 監聽 gh 指令的標準輸出 (stdout)
 ghProcess.stdout.on('data', (data) => {
     const chunk = data.toString();
-    
+
     // 將即時輸出顯示在螢幕上，讓您知道進度
     process.stdout.write(chunk);
 

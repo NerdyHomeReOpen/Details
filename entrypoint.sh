@@ -4,7 +4,7 @@ set -e
 
 # --- 日誌設定 ---
 # 假設執行此腳本的使用者對 /var/log/ 有寫入權限
-LOG_DIR="/var/log/"
+LOG_DIR="/var/log"
 # 建立包含日期與時間的時間戳
 TIMESTAMP=$(date +'%Y-%m-%d_%H-%M-%S')
 LOG_FILE="$LOG_DIR/entrypoint-${TIMESTAMP}.log"
@@ -131,6 +131,74 @@ case "$MODE" in
         echo "--- Init 模式全部完成！ ---"
         ;;
 
+    init-skip)
+        echo "===== 步驟 2/9: 重新載入環境，讓 nvm 指令可用 ====="
+        export NVM_DIR="$HOME/.nvm"
+        if [ -s "$NVM_DIR/nvm.sh" ]; then
+            source "$NVM_DIR/nvm.sh"  # 載入 nvm function
+        else
+            echo "錯誤: 找不到 nvm.sh，安裝可能失敗了。"
+            exit 1
+        fi
+
+        # 檢查是否有提供 NODE_VERSION，如果有的話就使用
+        if [ -n "$NODE_VERSION" ]; then
+          echo "===== 步驟 3/9: 正在安裝並使用 Node.js 版本: $NODE_VERSION ====="
+          nvm install "$NODE_VERSION"
+          nvm use "$NODE_VERSION"
+          echo "===== 步驟 4/9: 設定 nvm 的預設 Node.js 版本為 $NODE_VERSION ====="
+          nvm alias default "$NODE_VERSION"
+        else
+          echo "===== 步驟 3/9 & 4/9: 未指定 NODE_VERSION，跳過 Node.js 安裝與設定 ====="
+        fi
+
+        # 進入專案目錄
+        cd project
+
+        echo "步驟 7/9: 切換到分支 $GIT_BRANCH..."
+        git checkout "$GIT_BRANCH"
+        echo "分支切換完畢。"
+
+        echo "步驟 8/9: 載入初始.env"
+        if [ -f "/usr/share/project/.env.project.init" ]; then
+            cp /usr/share/project/.env.project.init .env
+            echo "已從 /usr/share/project/.env.project.init 載入初始 .env 檔案。"
+        else
+            echo "警告: 找不到 /usr/share/project/.env.project.init，跳過載入初始 .env 檔案。"
+        fi
+
+        echo "步驟 9/9: 執行 Node 初始化指令..."
+        echo "執行的指令: $NODE_INIT_COMMAND"
+        bash -c "$NODE_INIT_COMMAND"
+        echo "Node 初始化指令執行完畢。"
+
+        # --- 設定 GitHub Actions Runner ---
+        if [ -n "$RUNNER_TOKEN" ] && [ -n "$GIT_REPO_URL" ]; then
+            echo "步驟 10/10: 偵測到 RUNNER_TOKEN，開始設定 GitHub Actions Runner..."
+
+            RUNNER_DIR="/home/ubuntu/actions-runner"
+            mkdir -p "$RUNNER_DIR"
+            cd "$RUNNER_DIR"
+
+            # 下載並解壓縮 runner
+            LATEST_VERSION=$(curl -s https://api.github.com/repos/actions/runner/releases/latest | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | sed 's/v//')
+            RUNNER_FILENAME="actions-runner-linux-x64-${LATEST_VERSION}.tar.gz"
+            echo "正在下載 Runner v${LATEST_VERSION}..."
+            curl -o "${RUNNER_FILENAME}" -L "https://github.com/actions/runner/releases/download/v${LATEST_VERSION}/${RUNNER_FILENAME}"
+            tar xzf "./${RUNNER_FILENAME}"
+
+            # 設定 Runner
+            echo "正在設定 Runner..."
+            ./config.sh --url "$GIT_REPO_URL" --token "$RUNNER_TOKEN" --name "docker-runner-$(hostname)" --labels "docker,linux,x64" --unattended --replace
+
+            echo "GitHub Actions Runner 設定完成！"
+        else
+            echo "步驟 10/10: 未提供 RUNNER_TOKEN，跳過 GitHub Actions Runner 設定。"
+        fi
+
+        echo "--- Init 模式全部完成！ ---"
+        ;;
+
     production)
         echo "--- 執行 Production 模式 (使用 Supervisor) ---"
         echo "當前使用者: $(whoami)"
@@ -141,6 +209,9 @@ case "$MODE" in
         SUPERVISOR_CONF="/home/ubuntu/supervisord.conf"
         # 建立包含日期與時間的時間戳，用於 supervisor 的日誌檔案
         TIMESTAMP=$(date +'%Y-%m-%d_%H-%M-%S')
+
+        rm -rf "/home/ubuntu/project/$ENV_FILENAME"
+        cp /usr/share/.env "/home/ubuntu/project/$ENV_FILENAME"
 
         rm -rf "$SUPERVISOR_CONF"
         rm -rf /home/ubuntu/supervisor.sock
@@ -210,7 +281,7 @@ EOF
         ;;
 
     *)
-        echo "錯誤: 未知的 MODE '$MODE'。請使用 'init' 或 'production'。"
+        echo "錯誤: 未知的 MODE '$MODE'。請使用 'init' 或 'production' 或 'init-skip'。"
         exit 1
         ;;
 esac
