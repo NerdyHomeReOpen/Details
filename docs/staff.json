@@ -120,14 +120,6 @@
     "email": ""
   },
   {
-    "title": "developer",
-    "contact": "Zion",
-    "github": "",
-    "discord": "199035070621679617",
-    "ricecall": "4lpha_9527",
-    "email": ""
-  },
-  {
     "title": "machine-network",
     "contact": "Cooookie16",
     "github": "Cooookie16",
@@ -158,6 +150,14 @@
     "discord": "437082312849752076",
     "ricecall": "",
     "email": "ricecall@ichika.tw"
+  },
+  {
+    "title": "machine-network",
+    "contact": "Zion",
+    "github": "",
+    "discord": "199035070621679617",
+    "ricecall": "4lpha_9527",
+    "email": ""
   },
   {
     "title": "technical-support",
