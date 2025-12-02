@@ -1,0 +1,14 @@
+{
+  "cancel": "Cancel",
+  "download-update": "Download update",
+  "exit": "Exit",
+  "install-update": "Install",
+  "install-after-quit": "Install when closed",
+  "is-latest-version": "It's already the latest version.",
+  "logout": "Logout",
+  "open-main-window": "Show/hide main menu",
+  "update-available": "A new version is available",
+  "update-available-message": "The new version {{version}} was released on {{releaseDate}}. Click the \"Download Update\" button to start the download.",
+  "update-downloaded": "Install updates",
+  "update-downloaded-message": "Version {{version}} has been downloaded. Please select \"Install Now\" or \"Install on Close\""
+}
