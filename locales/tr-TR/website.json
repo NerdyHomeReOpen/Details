@@ -8,7 +8,7 @@
     "all": "Tümü"
   },
   "nav": {
-    "home": "首頁",
+    "home": "ön sayfa",
     "announcement": "Duyurular",
     "contact": "İletişim",
     "status": "Durum",
@@ -16,8 +16,8 @@
     "logout": "Çıkış yap",
     "register": "Kayıt ol",
     "account": "Hesabım",
-    "closeMenu": "關閉菜單",
-    "openMenu": "開啟選單"
+    "closeMenu": "Menüyü Kapat",
+    "openMenu": "Menüyü aç"
   },
   "footer": {
     "partners": "Ortaklar",
@@ -77,10 +77,10 @@
         "title": "Oyun için tasarlanmış ses",
         "desc": "RiceCall düşük gecikmeli, net ses ve grup aramaları sunar",
         "imageAlt": "RiceCall arayüzü ekran görüntüsü",
-        "close": "關閉",
-        "prev": "上一張圖片",
-        "next": "下一張圖片",
-        "toggle": "切換圖片"
+        "close": "kapanış",
+        "prev": "Önceki görüntü",
+        "next": "Sonraki resim",
+        "toggle": "Görüntüleri değiştir"
       },
       "faq": {
         "title": "SSS",
@@ -138,16 +138,16 @@
     },
     "contact": {
       "title": "İletişim",
-      "empty": "暫無資訊",
+      "empty": "Herhangi bir bilgi bulunmamaktadır.",
       "jobs": {
         "CEO": "Genel Müdür",
         "CTO": "Teknoloji Direktörü",
         "COO-taiwan": "COO, Tayvan",
         "COO-russia": "COO, Rusya",
         "COO-brazil": "COO, Brezilya",
-        "COO-iran": "伊朗營運長",
-        "COO-turkey": "土耳其營運長",
-        "COO-spain": "西班牙營運長",
+        "COO-iran": "İran Baş Operasyon Sorumlusu",
+        "COO-turkey": "Türkiye Baş Operasyon Sorumlusu",
+        "COO-spain": "İspanyol Baş İşletme Sorumlusu",
         "customer-service": "Müşteri Hizmetleri",
         "developer": "Geliştirici",
         "machine-network": "Makine Ağı",
@@ -189,7 +189,7 @@
       },
       "submit": "Giriş yap",
       "submitting": "Giriş yapılıyor...",
-      "forgetPassword": "忘記密碼",
+      "forgetPassword": "şifreyi unuttum",
       "errors": {
         "loginFailed": "Giriş başarısız, lütfen tekrar deneyin",
         "networkError": "Ağ veya sunucu hatası, lütfen daha sonra tekrar deneyin",
@@ -264,15 +264,15 @@
       "requestFailed": "İstek başarısız",
       "passwordReset": "Sıfırla",
       "passwordBindAction": "Parolayı bağla",
-      "recaptchaFailed": "reCAPTCHA 驗證失敗，請稍後再試"
+      "recaptchaFailed": "reCAPTCHA doğrulaması başarısız oldu, lütfen daha sonra tekrar deneyin."
     },
     "forget": {
-      "forgetTitle": "忘記密碼",
-      "enterAccount": "請輸入您的帳號，我們會寄送重設密碼連結至您綁定的信箱。",
-      "account": "帳號",
-      "sendEmail": "寄送重設連結",
-      "sendingEmail": "寄送中...",
-      "backLogin": "返回登入"
+      "forgetTitle": "şifreyi unuttum",
+      "enterAccount": "Lütfen hesap numaranızı girin, bağlı e-posta adresinize bir şifre sıfırlama bağlantısı göndereceğiz.",
+      "account": "hesap numarası",
+      "sendEmail": "Sıfırlama Bağlantısını Gönder",
+      "sendingEmail": "Gönderiliyor...",
+      "backLogin": "Girişe Dön"
     },
     "password": {
       "resetTitle": "Parolayı sıfırla",
@@ -299,19 +299,19 @@
       "passwordMaxLength": "Parola en fazla 20 karakter olmalıdır",
       "passwordInvalidFormat": "Parola yalnızca İngilizce harfler, sayılar ve özel karakterler içermelidir",
       "usernameInvalidFormat": "Takma ad yalnızca İngilizce harfler, sayılar ve özel karakterler içermelidir",
-      "usernameMinLength": "使用者名稱長度至少 4 碼",
-      "usernameMaxLength": "使用者名稱長度最多 16 碼"
+      "usernameMinLength": "Kullanıcı adları en az 4 karakter uzunluğunda olmalıdır.",
+      "usernameMaxLength": "Kullanıcı adları en fazla 16 karakter uzunluğunda olabilir."
     },
     "join": {
-      "joinTitle": "進入語音群",
-      "readyingOpen": "準備開啟RiceCall...",
-      "invalidSid": "無效的sid",
-      "opening": "正在開啟 RiceCall...",
-      "warning": "如果未自動跳轉，請確認是否已安裝 RiceCall",
-      "tryConnect": "嘗試連線至語音群 ID：",
-      "retryOpen": "重新嘗試開啟RiceCall",
-      "loading": "正在開啟...",
-      "unsupported": "您的平台目前不受支援"
+      "joinTitle": "Ses grubuna katılın",
+      "readyingOpen": "RiceCall'ı başlatmaya hazırlanıyor...",
+      "invalidSid": "Geçersiz SID",
+      "opening": "RiceCall başlatılıyor...",
+      "warning": "Otomatik olarak yönlendirilmezseniz lütfen RiceCall'ın yüklü olup olmadığını kontrol edin.",
+      "tryConnect": "Ses grubu kimliğine bağlanmayı deneyin:",
+      "retryOpen": "RiceCall'ı yeniden başlatmayı deneyin",
+      "loading": "Başlangıç...",
+      "unsupported": "Platformunuz şu anda desteklenmiyor."
     }
   },
   "announcementCategory": {
