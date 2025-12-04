@@ -8,7 +8,7 @@
     "all": "Todos"
   },
   "nav": {
-    "home": "首頁",
+    "home": "Página principal",
     "announcement": "Anuncios",
     "contact": "Contacto",
     "status": "Estado",
@@ -16,8 +16,8 @@
     "logout": "Cerrar sesión",
     "register": "Registrarse",
     "account": "Mi cuenta",
-    "closeMenu": "關閉菜單",
-    "openMenu": "開啟選單"
+    "closeMenu": "Cerrar menú",
+    "openMenu": "Abrir menú"
   },
   "footer": {
     "partners": "Socios",
@@ -77,10 +77,10 @@
         "title": "Voz diseñada para juegos",
         "desc": "RiceCall ofrece audio claro y de baja latencia y llamadas en grupo",
         "imageAlt": "Captura de la interfaz de RiceCall",
-        "close": "關閉",
-        "prev": "上一張圖片",
-        "next": "下一張圖片",
-        "toggle": "切換圖片"
+        "close": "Cerrar",
+        "prev": "Imagen anterior",
+        "next": "Siguiente imagen",
+        "toggle": "Cambiar imágenes"
       },
       "faq": {
         "title": "Preguntas frecuentes",
@@ -138,16 +138,16 @@
     },
     "contact": {
       "title": "Contacto",
-      "empty": "暫無資訊",
+      "empty": "No hay información disponible.",
       "jobs": {
         "CEO": "Director ejecutivo",
         "CTO": "Director técnico",
         "COO-taiwan": "COO, Taiwán",
         "COO-russia": "COO, Rusia",
         "COO-brazil": "COO, Brasil",
-        "COO-iran": "伊朗營運長",
-        "COO-turkey": "土耳其營運長",
-        "COO-spain": "西班牙營運長",
+        "COO-iran": "Director de Operaciones de Irán",
+        "COO-turkey": "Director de Operaciones de Turquía",
+        "COO-spain": "Director de Operaciones de España",
         "customer-service": "Atención al cliente",
         "developer": "Desarrollador",
         "machine-network": "Red de máquinas",
@@ -264,7 +264,7 @@
       "requestFailed": "Solicitud fallida",
       "passwordReset": "Restablecer",
       "passwordBindAction": "Vincular contraseña",
-      "recaptchaFailed": "reCAPTCHA 驗證失敗，請稍後再試"
+      "recaptchaFailed": "La verificación reCAPTCHA ha fallado, inténtalo de nuevo más tarde."
     },
     "forget": {
       "forgetTitle": "¿Has olvidado tu contraseña?",
@@ -299,19 +299,19 @@
       "passwordMaxLength": "La contraseña debe tener como máximo 20 caracteres",
       "passwordInvalidFormat": "La contraseña solo debe contener letras inglesas, números y caracteres especiales",
       "usernameInvalidFormat": "Los nombres de usuario solo pueden contener chino, inglés y números.",
-      "usernameMinLength": "使用者名稱長度至少 4 碼",
-      "usernameMaxLength": "使用者名稱長度最多 16 碼"
+      "usernameMinLength": "Los nombres de usuario deben tener al menos 4 caracteres.",
+      "usernameMaxLength": "Los nombres de usuario pueden tener hasta 16 caracteres."
     },
     "join": {
-      "joinTitle": "進入語音群",
-      "readyingOpen": "準備開啟RiceCall...",
-      "invalidSid": "無效的sid",
-      "opening": "正在開啟 RiceCall...",
-      "warning": "如果未自動跳轉，請確認是否已安裝 RiceCall",
-      "tryConnect": "嘗試連線至語音群 ID：",
-      "retryOpen": "重新嘗試開啟RiceCall",
-      "loading": "正在開啟...",
-      "unsupported": "您的平台目前不受支援"
+      "joinTitle": "Únete al grupo",
+      "readyingOpen": "Preparándose para iniciar RiceCall...",
+      "invalidSid": "Sid no válido",
+      "opening": "Iniciando RiceCall...",
+      "warning": "Si no se redirige automáticamente, verifica si RiceCall está instalado.",
+      "tryConnect": "Intenta conectarte al ID del grupo:",
+      "retryOpen": "Intenta reiniciar RiceCall",
+      "loading": "A partir de...",
+      "unsupported": "Tu plataforma no es compatible actualmente."
     }
   },
   "announcementCategory": {
