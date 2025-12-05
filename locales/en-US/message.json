@@ -110,6 +110,7 @@
   "reset-email-request-success": "Email reset request successful.",
   "reset-email-verify-failed": "Email verification failed.",
   "reset-email-verify-success": "Email verification successful.",
+  "email-sent": "信件發送成功，請至信箱內收取信件進行下一步驗證。",
   "reset-password-confirm-failed": "Password reset failed.",
   "reset-password-confirm-success": "Password reset successful.",
   "reset-password-request-failed": "Password reset request failed.",
