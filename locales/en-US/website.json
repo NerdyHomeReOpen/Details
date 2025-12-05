@@ -8,15 +8,16 @@
     "all": "All"
   },
   "nav": {
-    "features": "Features",
-    "faq": "FAQs",
+    "home": "首頁",
     "announcement": "Announcements",
     "contact": "Contact",
     "status": "Status",
     "login": "Login",
     "logout": "Logout",
     "register": "Register",
-    "account": "My Account"
+    "account": "My Account",
+    "closeMenu": "關閉菜單",
+    "openMenu": "開啟選單"
   },
   "footer": {
     "partners": "Partners",
@@ -75,7 +76,11 @@
       "interface": {
         "title": "Voice built for gaming",
         "desc": "RiceCall provides low-latency, clear audio and group calls",
-        "imageAlt": "RiceCall interface screenshot"
+        "imageAlt": "RiceCall interface screenshot",
+        "close": "關閉",
+        "prev": "上一張圖片",
+        "next": "下一張圖片",
+        "toggle": "切換圖片"
       },
       "faq": {
         "title": "FAQs",
@@ -133,14 +138,16 @@
     },
     "contact": {
       "title": "Contact",
+      "empty": "暫無資訊",
       "jobs": {
         "CEO": "CEO",
         "CTO": "CTO",
-        "CFO": "CFO",
-        "COO": "COO, Global",
         "COO-taiwan": "COO, Taiwan",
         "COO-russia": "COO, Russia",
         "COO-brazil": "COO, Brazil",
+        "COO-iran": "伊朗營運長",
+        "COO-turkey": "土耳其營運長",
+        "COO-spain": "西班牙營運長",
         "customer-service": "Customer Service",
         "developer": "Developer",
         "machine-network": "Machine Network",
@@ -166,8 +173,6 @@
       },
       "submit": "Create account",
       "submitting": "Registering...",
-      "hasAccount": "Already have an account?",
-      "gotoLogin": "Go to login",
       "errors": {
         "passwordNotMatch": "Passwords do not match",
         "registerFailed": "Registration failed",
@@ -185,8 +190,6 @@
       "submit": "Log in",
       "submitting": "Logging in...",
       "forgetPassword": "忘記密碼",
-      "noAccount": "還沒有帳號嗎？",
-      "gotoRegister": "Sign up",
       "errors": {
         "loginFailed": "Login failed, please try again",
         "networkError": "Network or server error, please try again later",
@@ -260,7 +263,8 @@
       "emailVerifying": "Verifying...",
       "requestFailed": "Request failed",
       "passwordReset": "Reset",
-      "passwordBindAction": "Bind Password"
+      "passwordBindAction": "Bind Password",
+      "recaptchaFailed": "reCAPTCHA 驗證失敗，請稍後再試"
     },
     "forget": {
       "forgetTitle": "忘記密碼",
@@ -268,7 +272,6 @@
       "account": "帳號",
       "sendEmail": "寄送重設連結",
       "sendingEmail": "寄送中...",
-      "remember": "想起來了嗎？",
       "backLogin": "返回登入"
     },
     "password": {
@@ -295,7 +298,20 @@
       "passwordMinLength": "Password must be at least 8 characters",
       "passwordMaxLength": "Password must be at most 20 characters",
       "passwordInvalidFormat": "Password must contain only English, numbers, and special characters",
-      "usernameInvalidFormat": "暱稱只能包含中文、英文、數字"
+      "usernameInvalidFormat": "暱稱只能包含中文、英文、數字",
+      "usernameMinLength": "使用者名稱長度至少 4 碼",
+      "usernameMaxLength": "使用者名稱長度最多 16 碼"
+    },
+    "join": {
+      "joinTitle": "進入語音群",
+      "readyingOpen": "準備開啟RiceCall...",
+      "invalidSid": "無效的sid",
+      "opening": "正在開啟 RiceCall...",
+      "warning": "如果未自動跳轉，請確認是否已安裝 RiceCall",
+      "tryConnect": "嘗試連線至語音群 ID：",
+      "retryOpen": "重新嘗試開啟RiceCall",
+      "loading": "正在開啟...",
+      "unsupported": "您的平台目前不受支援"
     }
   },
   "announcementCategory": {
@@ -303,13 +319,5 @@
     "general": "General",
     "system": "System",
     "event": "Event"
-  },
-  "join": {
-    "readyingOpen": "準備開啟RiceCall...",
-    "invalidSid": "無效的sid",
-    "opening": "正在開啟 RiceCall...",
-    "warning": "如果未自動跳轉，請確認是否已安裝 RiceCall",
-    "tryConnect": "嘗試連線至語音群 ID：",
-    "retryOpen": "重新嘗試開啟RiceCall"
   }
 }
