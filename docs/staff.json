@@ -1,7 +1,7 @@
 [
   {
-    "title": "CEO",
-    "contact": "JoshHuang",
+    "title": "project-owner",
+    "contact": "Josh",
     "github": "JoshHuang9508",
     "discord": "614396443016560649",
     "ricecall": "whydog",
@@ -9,25 +9,16 @@
     "hash": "49ad91c58c24ebe6903be77b9d1444e1"
   },
   {
-    "title": "CTO",
-    "contact": "JoshHuang",
-    "github": "JoshHuang9508",
-    "discord": "614396443016560649",
-    "ricecall": "whydog",
-    "email": "joshhuang9508@gmail.com",
-    "hash": "49ad91c58c24ebe6903be77b9d1444e1"
-  },
-  {
-    "title": "COO-brazil",
-    "contact": "Joao",
+    "title": "official-staff",
+    "contact": "joao",
     "discord": "209495167512608774",
-    "github": "dreamb1t",
+    "github": "",
     "ricecall": "joao",
     "email": "joaoe@pm.me",
     "hash": "17c22e6ee5a2d3d2e4992cfe890ba471"
   },
   {
-    "title": "COO-iran",
+    "title": "official-staff",
     "contact": "OneManArmy",
     "discord": "393748072150335499",
     "github": "",
@@ -36,7 +27,7 @@
     "hash": "ddefeec965cbc5e55e0042f91f98b2b9"
   },
   {
-    "title": "COO-russia",
+    "title": "official-staff",
     "contact": "Roman",
     "discord": "736902595888807996",
     "github": "",
@@ -45,25 +36,7 @@
     "hash": "4491c8219a5f25685cbaf1135d5243d8"
   },
   {
-    "title": "COO-spain",
-    "contact": "Ramon96",
-    "github": "ramonPC96",
-    "discord": "493539043133620234",
-    "ricecall": "ramon96",
-    "email": "ramon96@ricecall.com.es",
-    "hash": "3f2afc8fca8d7c9be9a8a1b13d01adb0"
-  },
-  {
-    "title": "COO-taiwan",
-    "contact": "JoshHuang",
-    "github": "JoshHuang9508",
-    "discord": "614396443016560649",
-    "ricecall": "whydog",
-    "email": "joshhuang9508@gmail.com",
-    "hash": "49ad91c58c24ebe6903be77b9d1444e1"
-  },
-  {
-    "title": "COO-turkey",
+    "title": "official-staff",
     "contact": "Emoxia",
     "github": "",
     "discord": "537194989399048192",
@@ -72,8 +45,62 @@
     "hash": "700078fbe8b6634dd13455ae06cf1e7a"
   },
   {
+    "title": "official-staff",
+    "contact": "Athena",
+    "github": "",
+    "discord": "557452468079034379",
+    "ricecall": "sweetangela",
+    "email": "violet8311amy@gmail.com",
+    "hash": ""
+  },
+  {
+    "title": "official-staff",
+    "contact": "CoCo",
+    "github": "",
+    "discord": "1093996833384190033",
+    "ricecall": "xiqia",
+    "email": "qaz15963035@gmail.com",
+    "hash": ""
+  },
+  {
+    "title": "official-staff",
+    "contact": "Sea",
+    "github": "",
+    "discord": "389429444571430913",
+    "ricecall": "Sea860612",
+    "email": "",
+    "hash": ""
+  },
+  {
+    "title": "official-staff",
+    "contact": "Devin",
+    "github": "",
+    "discord": "427303035174256641",
+    "ricecall": "cdndy20164014",
+    "email": "cdndy20164014@gmail.com",
+    "hash": ""
+  },
+  {
+    "title": "official-staff",
+    "contact": "Yuuki",
+    "github": "",
+    "discord": "1219273503878938705",
+    "ricecall": "YuukiJP",
+    "email": "nishimura_tw@icloud.com",
+    "hash": ""
+  },
+  {
+    "title": "official-staff",
+    "contact": "Blackhat",
+    "github": "",
+    "discord": "375562502521618432",
+    "ricecall": "",
+    "email": "k1yo@yahoo.com",
+    "hash": ""
+  },
+  {
     "title": "developer",
-    "contact": "Yeci226",
+    "contact": "Yeci",
     "github": "yeci226",
     "discord": "283946584461410305",
     "ricecall": "yeci",
@@ -145,7 +172,7 @@
   },
   {
     "title": "machine-network",
-    "contact": "Yayacat",
+    "contact": "yayacat",
     "github": "yayacat",
     "discord": "107918754251325440",
     "ricecall": "yayacat",
@@ -154,7 +181,7 @@
   },
   {
     "title": "machine-network",
-    "contact": "Codingbear",
+    "contact": "南極熊",
     "github": "mcg25035",
     "discord": "492908862647697409",
     "ricecall": "codingbear",
@@ -172,12 +199,12 @@
   },
   {
     "title": "machine-network",
-    "contact": "Zion",
+    "contact": "章魚哥",
     "github": "",
     "discord": "199035070621679617",
     "ricecall": "4lpha_9527",
     "email": "",
-	"hash": "1ccfd0d075f3ee67ddc7fca682e0ab85"
+    "hash": "1ccfd0d075f3ee67ddc7fca682e0ab85"
   },
   {
     "title": "technical-support",
