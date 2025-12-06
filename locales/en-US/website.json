@@ -8,7 +8,7 @@
     "all": "All"
   },
   "nav": {
-    "home": "首頁",
+    "home": "Home",
     "announcement": "Announcements",
     "contact": "Contact",
     "status": "Status",
@@ -16,8 +16,8 @@
     "logout": "Logout",
     "register": "Register",
     "account": "My Account",
-    "closeMenu": "關閉菜單",
-    "openMenu": "開啟選單"
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu"
   },
   "footer": {
     "partners": "Partners",
@@ -77,10 +77,10 @@
         "title": "Voice built for gaming",
         "desc": "RiceCall provides low-latency, clear audio and group calls",
         "imageAlt": "RiceCall interface screenshot",
-        "close": "關閉",
-        "prev": "上一張圖片",
-        "next": "下一張圖片",
-        "toggle": "切換圖片"
+        "close": "Close",
+        "prev": "Previous picture",
+        "next": "Next picture",
+        "toggle": "Switch images"
       },
       "faq": {
         "title": "FAQs",
@@ -138,16 +138,16 @@
     },
     "contact": {
       "title": "Contact",
-      "empty": "暫無資訊",
+      "empty": "No information available.",
       "jobs": {
         "CEO": "CEO",
         "CTO": "CTO",
         "COO-taiwan": "COO, Taiwan",
         "COO-russia": "COO, Russia",
         "COO-brazil": "COO, Brazil",
-        "COO-iran": "伊朗營運長",
-        "COO-turkey": "土耳其營運長",
-        "COO-spain": "西班牙營運長",
+        "COO-iran": "Iranian Chief Operating Officer",
+        "COO-turkey": "Turkish Chief Operating Officer",
+        "COO-spain": "Spanish Chief Operating Officer",
         "customer-service": "Customer Service",
         "developer": "Developer",
         "machine-network": "Machine Network",
@@ -189,7 +189,7 @@
       },
       "submit": "Log in",
       "submitting": "Logging in...",
-      "forgetPassword": "忘記密碼",
+      "forgetPassword": "forget the password",
       "errors": {
         "loginFailed": "Login failed, please try again",
         "networkError": "Network or server error, please try again later",
@@ -264,15 +264,15 @@
       "requestFailed": "Request failed",
       "passwordReset": "Reset",
       "passwordBindAction": "Bind Password",
-      "recaptchaFailed": "reCAPTCHA 驗證失敗，請稍後再試"
+      "recaptchaFailed": "reCAPTCHA verification failed, please try again later."
     },
     "forget": {
-      "forgetTitle": "忘記密碼",
-      "enterAccount": "請輸入您的帳號，我們會寄送重設密碼連結至您綁定的信箱。",
-      "account": "帳號",
-      "sendEmail": "寄送重設連結",
-      "sendingEmail": "寄送中...",
-      "backLogin": "返回登入"
+      "forgetTitle": "forget the password",
+      "enterAccount": "Please enter your account number, and we will send a password reset link to your linked email address.",
+      "account": "account number",
+      "sendEmail": "Send Reset Link",
+      "sendingEmail": "link",
+      "backLogin": "Return to Login"
     },
     "password": {
       "resetTitle": "Reset Password",
@@ -298,20 +298,20 @@
       "passwordMinLength": "Password must be at least 8 characters",
       "passwordMaxLength": "Password must be at most 20 characters",
       "passwordInvalidFormat": "Password must contain only English, numbers, and special characters",
-      "usernameInvalidFormat": "暱稱只能包含中文、英文、數字",
-      "usernameMinLength": "使用者名稱長度至少 4 碼",
-      "usernameMaxLength": "使用者名稱長度最多 16 碼"
+      "usernameInvalidFormat": "Nicknames can only contain Chinese characters, English letters, and numbers.",
+      "usernameMinLength": "Usernames must be at least 4 characters long.",
+      "usernameMaxLength": "Usernames must be at least 4 characters long...."
     },
     "join": {
-      "joinTitle": "進入語音群",
-      "readyingOpen": "準備開啟RiceCall...",
-      "invalidSid": "無效的sid",
-      "opening": "正在開啟 RiceCall...",
-      "warning": "如果未自動跳轉，請確認是否已安裝 RiceCall",
-      "tryConnect": "嘗試連線至語音群 ID：",
-      "retryOpen": "重新嘗試開啟RiceCall",
-      "loading": "正在開啟...",
-      "unsupported": "您的平台目前不受支援"
+      "joinTitle": "Join the voice group",
+      "readyingOpen": "Preparing to start RiceCall...",
+      "invalidSid": "Invalid SID",
+      "opening": "Initiating RiceCall...",
+      "warning": "If you are not automatically redirected, please check if RiceCall is installed.",
+      "tryConnect": "Try connecting to the voice group ID:",
+      "retryOpen": "Try restarting RiceCall",
+      "loading": "Starting...",
+      "unsupported": "Your platform is currently unsupported."
     }
   },
   "announcementCategory": {
