@@ -106,6 +106,7 @@
   "confirm-kick-user-from-channel": "Вы уверены, что хотите выгнать {{0}} из {{1}}?",
   "confirm-kick-user-from-server": "Вы уверены, что хотите исключить {{0}} из этой группы?",
   "confirm-kick-users-from-server": "Вы уверены, что хотите удалить {{0}} пользователей?",
+  "confirm-move-members-to-channel": "確定要移動 {{0}} 位成員至指定頻道嗎？",
   "confirm-password": "Подтвердите пароль",
   "confirm-reject-all-friend-application": "Вы уверены, что хотите отклонить все заявки в друзья?",
   "confirm-reject-all-member-invitation": "Вы уверены, что хотите отклонить все приглашения стать участником?",
