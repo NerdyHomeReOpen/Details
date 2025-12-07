@@ -106,6 +106,7 @@
   "confirm-kick-user-from-channel": "{{0}} kullanıcısını {{1}} grubundan atmak istediğinizden emin misiniz?",
   "confirm-kick-user-from-server": "{{0}} kullanıcısını bu gruptan atmak istediğinizden emin misiniz?",
   "confirm-kick-users-from-server": "{{0}} kullanıcıyı atmak istediğinizden emin misiniz?",
+  "confirm-move-members-to-channel": "確定要移動 {{0}} 位成員至指定頻道嗎？",
   "confirm-password": "Şifreyi Onayla",
   "confirm-reject-all-friend-application": "Tüm arkadaşlık isteklerini reddetmek istediğinizden emin misiniz?",
   "confirm-reject-all-member-invitation": "Tüm üyelik davetlerini reddetmek istediğinizden emin misiniz?",
