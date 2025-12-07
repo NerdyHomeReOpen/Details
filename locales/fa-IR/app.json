@@ -106,6 +106,7 @@
   "confirm-kick-user-from-channel": "آیا مطمئن هستید که می‌خواهید {{0}} را از {{1}} اخراج کنید؟",
   "confirm-kick-user-from-server": "آیا مطمئن هستید که می‌خواهید {{0}} را از این گروه اخراج کنید؟",
   "confirm-kick-users-from-server": "آیا مطمئن هستید که می‌خواهید {{0}} کاربر را بیرون بیندازید؟",
+  "confirm-move-members-to-channel": "確定要移動 {{0}} 位成員至指定頻道嗎？",
   "confirm-password": "تایید کردن رمز عبور",
   "confirm-reject-all-friend-application": "آیا مطمئن هستید که می‌خواهید همه درخواست‌های دوستی را رد کنید؟",
   "confirm-reject-all-member-invitation": "آیا مطمئن هستید که می‌خواهید همه دعوت‌نامه‌های عضویت را رد کنید؟",
