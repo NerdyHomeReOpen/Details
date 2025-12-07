@@ -106,6 +106,7 @@
   "confirm-kick-user-from-channel": "Você tem certeza de que deseja remover {{0}} de {{1}}?",
   "confirm-kick-user-from-server": "Você tem certeza de que deseja remover {{0}} deste grupo?",
   "confirm-kick-users-from-server": "Tem certeza de que deseja expulsar {{0}} usuários?",
+  "confirm-move-members-to-channel": "確定要移動 {{0}} 位成員至指定頻道嗎？",
   "confirm-password": "Confirme a senha",
   "confirm-reject-all-friend-application": "Tem certeza de que quer negar todos os pedidos de amizade?",
   "confirm-reject-all-member-invitation": "Tem certeza de que quer rejeitar todos os pedidos de membro?",
