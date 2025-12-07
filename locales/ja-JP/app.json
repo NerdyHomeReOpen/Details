@@ -106,6 +106,7 @@
   "confirm-kick-user-from-channel": "{{0}} を {{1}} から追放してもよろしいですか？",
   "confirm-kick-user-from-server": "{{0}} をこのグループから追放してもよろしいですか？",
   "confirm-kick-users-from-server": "{{0}} ユーザーを退出させてもよろしいですか ?",
+  "confirm-move-members-to-channel": "確定要移動 {{0}} 位成員至指定頻道嗎？",
   "confirm-password": "パスワード確認",
   "confirm-reject-all-friend-application": "すべての友達リクエストを拒否してもよろしいですか？",
   "confirm-reject-all-member-invitation": "すべてのメンバーの招待を拒否してもよろしいですか？",
