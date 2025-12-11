@@ -84,6 +84,7 @@
   "channel-ui-mode-classic-label": "Utilizar siempre el modo clásico (para voz y chat)",
   "channel-ui-mode-three-line-label": "Utilizar siempre el modo de tres columnas (para programas y transmisiones en vivo)",
   "characters": "Caracteres",
+  "chat": "聊天",
   "chat-mode": "Modo de chat",
   "chat-mode-description": "Baja latencia y calidad de audio fluida (aplicable en canales de voz en modo libre o de comando)",
   "check-for-updates": "Buscar actualizaciones",
