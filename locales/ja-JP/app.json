@@ -84,6 +84,7 @@
   "channel-ui-mode-classic-label": "常にクラシックモードを使用する（無料モードにも適用）",
   "channel-ui-mode-three-line-label": "常に 3 列モードを使用します (ショー プログラムやライブ ブロードキャストに適しています)",
   "characters": "キャラクタ",
+  "chat": "聊天",
   "chat-mode": "僅用於中文",
   "chat-mode-description": "低遅延、スムーズな品質（フリーモードと管理者モードのチャンネル）",
   "check-for-updates": "アップデートを確認する",
