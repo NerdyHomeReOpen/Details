@@ -84,6 +84,7 @@
   "channel-ui-mode-classic-label": "Always use the classic mode (applicable to the free mode)",
   "channel-ui-mode-three-line-label": "Always use the three-column mode (suitable for show programs and live broadcasts).",
   "characters": "Characters",
+  "chat": "聊天",
   "chat-mode": "Chat Mode",
   "chat-mode-description": "Low latency, smooth quality (for free mode and admin mode channels)",
   "check-for-updates": "Check for updates",
