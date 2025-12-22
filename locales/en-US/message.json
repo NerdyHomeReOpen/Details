@@ -97,7 +97,7 @@
   "not-receive-application": "It is not possible to apply for member. This group does not accept applications",
   "others-device-login": "Another device is connected, please log in again.",
   "permission-denied": "Not enough rights",
-  "receive-member-invitation": "您收到了群會員邀請。",
+  "receive-member-invitation": "You have received a group invitation.",
   "receive-shake-window": "The interlocutor sent you a window vibration",
   "register-failed": "Failed to register. Please try again later.",
   "register-success": "Account registration successful. Please go to {{0}} to verify your email to activate your account. You will not be able to log in until the account is activated. If you did not receive the verification email, please go to the [official website](https://ricecall.com.tw) to resend it.\n",
