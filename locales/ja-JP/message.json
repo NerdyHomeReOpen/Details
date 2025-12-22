@@ -97,7 +97,7 @@
   "not-receive-application": "無法加入群，此語音群不開放會員申請",
   "others-device-login": "另一個設備已登入，請重新登入",
   "permission-denied": "十分な権利がありません。",
-  "receive-member-invitation": "您收到了群會員邀請。",
+  "receive-member-invitation": "グループへの招待を受信しました。",
   "receive-shake-window": "對方向您發送了一次視窗震動",
   "register-failed": "註冊失敗，請稍後再試",
   "register-success": "アカウント登録が完了しました。アカ​​ウントを有効にするには、{{0}} にアクセスしてメールアドレスを確認してください。アカウントが有効になるまでログインできません。確認メールが届いていない場合は、[公式ウェブサイト](https://ricecall.com.tw) にアクセスして確認メールを再送信してください。",
