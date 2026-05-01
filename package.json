@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  },
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "sort": "node scripts/sort-json.cjs",
+    "format": "prettier --write \"locales/**/*.json\" \"docs/**/*.json\""
+  }
+}
